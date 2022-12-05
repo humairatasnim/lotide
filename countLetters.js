@@ -25,3 +25,5 @@ assertEqual(result["l"], 1);
 assertEqual(result["h"], 4);
 assertEqual(result["a"], undefined);
 assertEqual(result["b"], undefined);
+
+module.exports = countLetters;
