@@ -32,7 +32,7 @@ The following functions are currently implemented:
 * `countLetters(str)`: Returns an object with the total occurances of each letter in the string
 * `countOnly(allItems, itemsToCount)`: Returns an object with the total occurances of items that appear in array
 * `eqArrays(array1, array2)`: Compares 2 arrays and confirms if they are equal
-* `eqObjects(object1, object2)`: Compares 2 objects and confirms if they are equal
+* `eqObjects(object1, object2)`: Returns true if both objects have identical keys with identical values
 * `findKey(obj, callback)`: Returns the key of an object the value of which meets the callback function criteria
 * `findKeyByValue(obj, val)`: Returns the key of an object the value of which meets the provided value
 * `flatten(arr)`: Returns a flattened array from a nested array

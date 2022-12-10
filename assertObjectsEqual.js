@@ -1,4 +1,3 @@
-// FUNCTION IMPLEMENTATION
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
@@ -12,8 +11,7 @@ const eqArrays = function(arr1, arr2) {
   }
 };
 
-// Returns true if both objects have identical keys with identical values.
-// Otherwise you get back a big fat false!
+// Returns true if both objects have identical keys with identical values
 const eqObjects = function(object1, object2) {
   if (Object.keys(object1).length !== Object.keys(object2).length) {
     return false;

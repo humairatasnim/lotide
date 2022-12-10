@@ -1,3 +1,4 @@
+// Returns middle elements of array
 const middle = function(array) {
   let output = [];
   if (array.length > 2) {
