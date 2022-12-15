@@ -22,4 +22,9 @@ describe("#eqArrays", () => {
     const cd2 = { c: "1", d: ["2", 3, 4] };
     assert.deepEqual(eqObjects(cd, cd2), false);
   });
+  it("returns false for { a: [1, 2], b: 2 } and { a: [1, 2], b: 5 }", () => {
+    const ab1 = { a: [1, 2], b: 2 };
+    const ab2 = { a: [1, 2], b: 5 };
+    assert.deepEqual(eqObjects(ab1, ab2), false);
+  });
 });
